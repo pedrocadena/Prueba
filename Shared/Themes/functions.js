@@ -1,0 +1,2 @@
+﻿function openPopUp(w, h, r, s, t, l, m, sc, d) { var w = window.open('', '', 'width=' + w + ',height=' + h + ',status=' + s + ',toolbar=' + t + ',location=' + l + ',menubar=' + m + ',directories=' + d + ',scrollbars=' + sc + ',resizable=' + r); return w; }
+function writeToPopUp(title, text, w, h, r, s, t, l, m, sc, d) { w = openPopUp(w, h, r, s, t, l, m, sc, d); w.document.write(text);if (title != '') { w.document.title = title; }; w.document.close(); }

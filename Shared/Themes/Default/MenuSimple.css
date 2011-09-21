@@ -1,0 +1,8 @@
+﻿.MenuSimple{padding:0;margin:0;list-style:none;font-family:Arial;font-size:12px;}
+.MenuSimple li{float:left;margin-left:1px;padding-top:2px;}
+.MenuSimple li a{display:block;height:38px;line-height:38px;padding:0 20px 0 0;float:left;background:url(img/MenuSimple/tab_a.gif) no-repeat right top;color:#000;text-decoration:none;}
+.MenuSimple li a b{display:block;height:38px;float:left;padding:0 0 0 20px;background:url(img/MenuSimple/tab_b.gif) left top;cursor:pointer;}
+.MenuSimple li a:hover{background-position:right -51px;margin-top:-2px;height:40px;}
+.MenuSimple li a:hover b{background-position:left -51px;height:40px;}
+.MenuSimple li a.selected{background-position:right -51px;margin-top:-2px;height:40px;}
+.MenuSimple li a.selected b{background-position:left -51px;height:40px;}

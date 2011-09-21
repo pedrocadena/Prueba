@@ -1,0 +1,1 @@
+function __doPostBack(args,sender){document.getElementById('__EVENTNAME').value=args;document.getElementById('__EVENTARGS').value=sender;document.forms[0].submit();}

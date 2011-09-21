@@ -1,0 +1,5 @@
+{
+"titulo_de_la_pagina":"Lead 2 Action International",
+"imprimir":"Print",
+"pdf":"PDF Export"
+}
